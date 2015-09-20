@@ -19,48 +19,48 @@
 
 				<fieldset>
 					<legend>Vas-tu boire de l'acool à cette soirée ? </legend>
-						<label for="question1" class="oui">Oui</label>
+						<label for="question1">Oui</label>
 						<input id="question1" type="radio" name="combi1" value="true" checked <?php if( $_GET['combi1']=='true'){ echo 'checked="checked"';} ?> required>
-						<label for="question12" class="non">Non</label>
+						<label for="question12">Non</label>
 						<input id="question12" type="radio" name="combi1" value="false" <?php if( $_GET['combi1']=='false'){ echo 'checked="checked"';} ?> required>
 				</fieldset>
 
 				<fieldset>
 					<legend>Connais-tu Bob ?</legend>
-						<label for="question2" class="oui">Oui</label>
+						<label for="question2">Oui</label>
 						<input id="question2"type="radio" name="combi2" value="true" checked <?php if( $_GET['combi2']=='true'){ echo 'checked="checked"';} ?> required>
-						<label for="question22" class="non">Non</label>
+						<label for="question22">Non</label>
 						<input id="question22" type="radio" name="combi2" value="false" <?php if( $_GET['combi2']=='false'){ echo 'checked="checked"';} ?> required>
 				</fieldset>
 					
 				<fieldset>	
 					<legend>Est ce qu'il neige ?</legend>
-						<label for="question3" class="oui">Oui</label>
+						<label for="question3">Oui</label>
 						<input id="question3" type="radio" name="combi3" value="true" checked <?php if( $_GET['combi3']=='true'){ echo 'checked="checked"';} ?> required>
-						<label for="question32" class="non">Non</label>
+						<label for="question32">Non</label>
 						<input id="question32" type="radio" name="combi3" value="false" <?php if( $_GET['combi3']=='false'){ echo 'checked="checked"';} ?> required>
 				</fieldset>
 
 				<fieldset>
 					<legend>As tu de l'argent pour mettre de l'essence? </legend>
-						<label for="question4" class="oui">Oui</label>
+						<label for="question4">Oui</label>
 						<input id="question4" type="radio" name="combi4" value="true" checked <?php if( $_GET['combi4']=='true'){ echo 'checked="checked"';} ?> required>
-						<label for="question42" class="non">Non</label>
+						<label for="question42">Non</label>
 						<input id="question42" type="radio" name="combi4" value="false" <?php if( $_GET['combi4']=='false'){ echo 'checked="checked"';} ?> required>
 				</fieldset>
 
 				<fieldset>
 					<legend>Comptes tu encore aller jusque maastricht?</legend>
-						<label for="question5" class="oui">Oui</label>
+						<label for="question5">Oui</label>
 						<input id="question5" type="radio" name="combi5" value="true" checked <?php if( $_GET['combi5']=='true'){ echo 'checked="checked"';} ?> required>
-						<label for="question52" class="non">Non</label>
+						<label for="question52">Non</label>
 						<input id="question52" type="radio" name="combi5" value="false" <?php if( $_GET['combi5']=='false'){ echo 'checked="checked"';} ?> required>
 				</fieldset>
 				<fieldset>
 					<legend>Vas-tu ramener tes copains qui boivent toujours trop ?</legend>
-						<label for="question6" class="oui">Oui</label>
+						<label for="question6">Oui</label>
 						<input id="question6" type="radio" name="combi6" value="true" checked <?php if( $_GET['combi6']=='true'){ echo 'checked="checked"';} ?> required>
-						<label for="question61" class="non">Non</label>
+						<label for="question61">Non</label>
 						<input id="question61" type="radio" name="combi6" value="false" <?php if( $_GET['combi6']=='false'){ echo 'checked="checked"';} ?>required>
 				</fieldset>
 
@@ -112,7 +112,7 @@
 				
 
 		<footer>
-			<p>Morgane Van Oncem - B2G22 - <a href="">Github</a></p>
+			<p>Morgane Van Oncem - B2G22 - <a href="https://github.com/movanoncem/php/blob/master/index.php">Github</a></p>
 		</footer>
 
 	</body>
